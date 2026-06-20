@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Green Grass",
+    "benefit": "Rich in natural nutrients and supports healthy growth."
+  },
+  {
+    "id": 2,
+    "name": "Napier Grass",
+    "benefit": "High-yield fodder that provides energy and fiber."
+  },
+  {
+    "id": 3,
+    "name": "Pasture Grass",
+    "benefit": "Promotes natural grazing behavior and digestive health."
+  },
+  {
+    "id": 4,
+    "name": "Hay",
+    "benefit": "Excellent source of roughage that aids digestion."
+  },
+  {
+    "id": 5,
+    "name": "Rice Straw",
+    "benefit": "Provides bulk fiber and helps maintain rumen function."
+  },
+  {
+    "id": 6,
+    "name": "Wheat Straw",
+    "benefit": "Supports digestive balance when mixed with other feeds."
+  },
+  {
+    "id": 7,
+    "name": "Maize Silage",
+    "benefit": "High-energy feed that helps improve body weight."
+  },
+  {
+    "id": 8,
+    "name": "Corn Silage",
+    "benefit": "Provides energy and supports healthy weight gain."
+  },
+  {
+    "id": 9,
+    "name": "Lucerne (Alfalfa)",
+    "benefit": "Rich in protein, vitamins, and minerals."
+  },
+  {
+    "id": 10,
+    "name": "Tree Leaves",
+    "benefit": "Natural source of nutrients and dietary variety."
+  },
+  {
+    "id": 11,
+    "name": "Wheat Bran",
+    "benefit": "Improves digestion and supplies essential nutrients."
+  },
+  {
+    "id": 12,
+    "name": "Soybean Meal",
+    "benefit": "High-protein feed that supports muscle development."
+  },
+  {
+    "id": 13,
+    "name": "Molasses",
+    "benefit": "Enhances feed taste and provides quick energy."
+  },
+  {
+    "id": 14,
+    "name": "Mineral Mix",
+    "benefit": "Supplies essential minerals for overall health and growth."
+  },
+  {
+    "id": 15,
+    "name": "Fresh Water",
+    "benefit": "Essential for hydration, metabolism, and overall wellbeing."
+  }
+]

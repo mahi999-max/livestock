@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Check Animal Health",
+    "description": "Choose an animal that is healthy, active, and free from visible diseases or injuries."
+  },
+  {
+    "id": 2,
+    "title": "Verify Age Requirements",
+    "description": "Ensure the animal meets the minimum age requirements according to Islamic guidelines."
+  },
+  {
+    "id": 3,
+    "title": "Inspect Weight and Build",
+    "description": "A well-built animal with a healthy weight is generally a better choice for Qurbani."
+  },
+  {
+    "id": 4,
+    "title": "Buy from Trusted Sellers",
+    "description": "Purchase animals from verified farms or trusted sellers to ensure quality and authenticity."
+  },
+  {
+    "id": 5,
+    "title": "Check Feeding Practices",
+    "description": "Animals raised on natural and nutritious feed are often healthier and better suited for Qurbani."
+  },
+  {
+    "id": 6,
+    "title": "Arrange Safe Transportation",
+    "description": "Transport animals carefully to minimize stress and maintain their health."
+  }
+]
