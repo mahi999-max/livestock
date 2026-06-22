@@ -4,21 +4,17 @@ import React from 'react';
 
 const AnimalCard = ({animal}) => {
     return (
-        <div className="card bg-base-100 w-auto shadow-sm">
-  <div className='relative h-64 w-full'>
-    <Image src={animal.image} alt='animal' fill className="object-contain rounded-t-lg"
-></Image>
-  </div>
+<div className="card bg-base-100 w-90 md:w-full shadow-sm container">
+  <figure className='relative h-64 w-full p-5'>
+    <Image
+      src={animal.image} fill className='object-contain'
+      alt="Shoes" />
+  </figure>
   <div className="card-body">
-    <h2 className="card-title justify-between">
-      {animal.name}
-    </h2>
-    <div className="badge bg-blue-400 p-3 text-white">{animal.category}</div>
-
+    <h2 className="card-title">{animal.name}</h2>
     <p>{animal.description}</p>
     <div className="card-actions justify-end">
-      <Link href={`/all-animal/${animal.id}`}>
-            <div className="btn btn-primary p-3 rounded-3xl">Show Details</div></Link>
+      <button className="btn btn-primary">Book Now</button>
     </div>
   </div>
 </div>

@@ -5,7 +5,7 @@ import { BsTiktok, BsTwitter } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='w-6xl mx-auto'>
+        <div className='w-auto mx-auto'>
 <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
   <nav>
       <aside className="grid-flow-col items-center">
