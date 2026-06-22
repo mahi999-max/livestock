@@ -14,7 +14,8 @@ const AnimalCard = ({animal}) => {
     <h2 className="card-title">{animal.name}</h2>
     <p>{animal.description}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Book Now</button>
+      <Link href={`/all-animal/${animal.id}`}>
+      <button className="btn btn-primary">Show details</button></Link>
     </div>
   </div>
 </div>

@@ -6,7 +6,7 @@ import Footer from '../component/Footer';
 const layout = ({children}) => {
     return (
         <div className='container mx-auto'>
-           <Navbar></Navbar><main className='w-auto md:w-6xl mx-auto'>{children}</main><Footer></Footer>
+           <Navbar></Navbar><main className='w-6xl mx-auto'>{children}</main><Footer></Footer>
         </div>
     );
 };
