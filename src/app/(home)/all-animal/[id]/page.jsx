@@ -16,7 +16,7 @@ const AnimalDetails = () => {
     }
     return (
         <div className='my-10 w-70vh mx-auto'>
-            <div className="card card-side shadow-sm flex items-center bg-gray-50">
+            <div className="card card-side shadow-sm md:flex grid items-center bg-gray-50">
   <figure>
     <Image
       src={animal?.image} width={300} height={300}
