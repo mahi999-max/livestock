@@ -11,7 +11,7 @@ const Footer = () => {
       <aside className="grid-flow-col items-center">
      <Image src={logo} alt='logo' width={200} height={200} className='rounded-full'></Image>
     <p>
-      <span className='text-2xl font-bold'>Friends Agro Farm</span>
+      <span className='text-2xl font-bold'>Livestock</span>
       <br />
       Providing reliable tech since 2018
     </p>

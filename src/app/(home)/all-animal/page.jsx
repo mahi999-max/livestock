@@ -2,10 +2,21 @@
 import AnimalCard from "@/app/component/AnimalCard";
 import { GetAnimalData } from "@/app/component/GetAnimalData";
 import { useEffect, useState } from "react";
+import Loading from "../loading";
 
 
 const AllAnimal = ()=> {
-     const animal=GetAnimalData()
+      const animal=GetAnimalData()
+   const isLoading = !animal; 
+
+    if (isLoading) {
+        return (
+            <div className="h-screen flex justify-center items-center">
+                <Loading />
+            </div>
+        );
+    }
+   
  
     return (
         <div className="my-5">
