@@ -4,4 +4,4 @@ export const authClient = createAuthClient({
     baseURL: "https://livestock-seven-wheat.vercel.app"
 })
 
-export const { signIn, signUp, useSession } = createAuthClient()
+export const { signIn, signUp, useSession } = authClient
