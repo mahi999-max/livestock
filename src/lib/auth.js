@@ -3,7 +3,7 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 
 const client = new MongoClient(process.env.MONGO_URL);
-await client.connect(); // 🔥 IMPORTANT FIX
+await client.connect();
 const db = client.db('livestock');
 
 export const auth = betterAuth({
