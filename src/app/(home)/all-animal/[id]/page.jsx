@@ -1,6 +1,7 @@
 'use client'
 import { GetAnimalData } from '@/app/component/GetAnimalData';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import React from 'react';
 import { BiLocationPlus } from 'react-icons/bi';
@@ -34,7 +35,8 @@ const AnimalDetails = () => {
     <p>Price: {animal?.price}</p>
     </div>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Book Now</button>
+      <Link href={'/bookingForm'}>
+      <button className="btn btn-primary">Book Now</button></Link>
     </div>
   </div>
 </div>

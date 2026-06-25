@@ -45,7 +45,7 @@ const MainPage = () => {
       <div className='mt-5 w-auto'>
         {
           breeds.map((tips) => <div key={tips.id} className='space-y-3'>
-            <h1 className='font-bold text-2xl text-green-700'>({tips.id}) {tips.name}</h1>
+            <h1 className='font-bold text-xl md:text-2xl text-green-700'>({tips.id}) {tips.breed} <span className='text-sm text-black italic'>({tips.animal})</span></h1>
             {/* <p className='font-md text-gray-700 pl-5'>{tips.benefit}</p> */}
           </div>)
         }

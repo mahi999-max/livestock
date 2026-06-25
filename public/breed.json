@@ -1,77 +1,98 @@
 [
   {
     "id": 1,
-    "name": "Green Grass",
-    "benefit": "Rich in natural nutrients and supports healthy growth."
+    "animal": "Cow",
+    "breed": "Holstein Friesian",
+    "origin": "Netherlands",
+    "purpose": "Dairy",
+    "description": "One of the world's highest milk-producing cattle breeds."
   },
   {
     "id": 2,
-    "name": "Napier Grass",
-    "benefit": "High-yield fodder that provides energy and fiber."
+    "animal": "Cow",
+    "breed": "Jersey",
+    "origin": "Jersey Island",
+    "purpose": "Dairy",
+    "description": "Known for rich, high-butterfat milk and efficient feed conversion."
   },
   {
     "id": 3,
-    "name": "Pasture Grass",
-    "benefit": "Promotes natural grazing behavior and digestive health."
+    "animal": "Cow",
+    "breed": "Sahiwal",
+    "origin": "Pakistan",
+    "purpose": "Dairy",
+    "description": "Heat-tolerant breed with excellent milk production."
   },
   {
     "id": 4,
-    "name": "Hay",
-    "benefit": "Excellent source of roughage that aids digestion."
+    "animal": "Cow",
+    "breed": "Brahman",
+    "origin": "India",
+    "purpose": "Beef",
+    "description": "Highly resistant to heat, insects, and harsh climates."
   },
   {
     "id": 5,
-    "name": "Rice Straw",
-    "benefit": "Provides bulk fiber and helps maintain rumen function."
+    "animal": "Goat",
+    "breed": "Boer",
+    "origin": "South Africa",
+    "purpose": "Meat",
+    "description": "Fast-growing breed widely used for meat production."
   },
   {
     "id": 6,
-    "name": "Wheat Straw",
-    "benefit": "Supports digestive balance when mixed with other feeds."
+    "animal": "Goat",
+    "breed": "Jamunapari",
+    "origin": "India",
+    "purpose": "Milk & Meat",
+    "description": "Large-sized breed valued for both milk and meat."
   },
   {
     "id": 7,
-    "name": "Maize Silage",
-    "benefit": "High-energy feed that helps improve body weight."
+    "animal": "Goat",
+    "breed": "Black Bengal",
+    "origin": "Bangladesh",
+    "purpose": "Meat",
+    "description": "Famous for high-quality meat and adaptability."
   },
   {
     "id": 8,
-    "name": "Corn Silage",
-    "benefit": "Provides energy and supports healthy weight gain."
+    "animal": "Goat",
+    "breed": "Saanen",
+    "origin": "Switzerland",
+    "purpose": "Dairy",
+    "description": "One of the best dairy goat breeds in the world."
   },
   {
     "id": 9,
-    "name": "Lucerne (Alfalfa)",
-    "benefit": "Rich in protein, vitamins, and minerals."
+    "animal": "Sheep",
+    "breed": "Merino",
+    "origin": "Spain",
+    "purpose": "Wool",
+    "description": "Produces some of the finest and softest wool."
   },
   {
     "id": 10,
-    "name": "Tree Leaves",
-    "benefit": "Natural source of nutrients and dietary variety."
+    "animal": "Sheep",
+    "breed": "Dorper",
+    "origin": "South Africa",
+    "purpose": "Meat",
+    "description": "Popular meat sheep breed with rapid growth."
   },
   {
     "id": 11,
-    "name": "Wheat Bran",
-    "benefit": "Improves digestion and supplies essential nutrients."
+    "animal": "Sheep",
+    "breed": "Suffolk",
+    "origin": "England",
+    "purpose": "Meat",
+    "description": "Well-known for high-quality lamb production."
   },
   {
     "id": 12,
-    "name": "Soybean Meal",
-    "benefit": "High-protein feed that supports muscle development."
-  },
-  {
-    "id": 13,
-    "name": "Molasses",
-    "benefit": "Enhances feed taste and provides quick energy."
-  },
-  {
-    "id": 14,
-    "name": "Mineral Mix",
-    "benefit": "Supplies essential minerals for overall health and growth."
-  },
-  {
-    "id": 15,
-    "name": "Fresh Water",
-    "benefit": "Essential for hydration, metabolism, and overall wellbeing."
+    "animal": "Sheep",
+    "breed": "Garole",
+    "origin": "Bangladesh",
+    "purpose": "Meat & Breeding",
+    "description": "A native breed adapted to coastal and marshy regions."
   }
 ]
