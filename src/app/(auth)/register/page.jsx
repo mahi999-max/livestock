@@ -21,7 +21,7 @@ const RegisterPage = () => {
         });
 
          if(error){
-            toast.error("Please try again.")
+            toast.error(error.message)
          }
          else{
             toast.success('Register done successfully')

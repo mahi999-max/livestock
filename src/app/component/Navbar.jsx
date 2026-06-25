@@ -7,6 +7,7 @@ import Navlink from './Navlink';
 import { authClient, useSession } from '@/lib/auth-client';
 const Navbar = () => {
     const { data: session } = useSession();
+    console.log(session);
 
     const handleSignOut = async () => {
         await authClient.signOut();
@@ -22,11 +23,12 @@ const Navbar = () => {
             <Navlink href={'/all-animal'}><li>All Animals</li></Navlink>         
            </div>
            <div className='list-none md:flex gap-3'>
-            {session ? (
+            {session ? (<>
+            <h1>{session.user.name}</h1>
                 <button onClick={handleSignOut} className="cursor-pointer">
                 <li>Logout</li>
              </button>
-                        ) : (
+                       </> ) : (
             <><Navlink href={'/signin'}><li>Sign In</li></Navlink>
             <Navlink href={'/register'}><li>Register</li></Navlink></>
                         )}
