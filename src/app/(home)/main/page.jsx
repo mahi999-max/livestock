@@ -23,7 +23,7 @@ const MainPage = () => {
             animal.map((animal) => <AnimalCard key={animal.id} animal={animal}></AnimalCard>)
           }
         </div>}
-      <Link href={'/all-animal'} className='flex justify-start md:justify-center'>
+      <Link href={'/all-animal'} className='flex justify-start md:justify-center animate__animated animate__pulse animate__infinite'>
         <div className='btn bg-emerald-700 rounded-3xl p-4 text-2xl flex items-center gap-2 text-white'>
           Show More <FaArrowRight /></div></Link>
 
